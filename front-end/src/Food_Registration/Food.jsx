@@ -38,9 +38,11 @@ export default function FoodForm() {
   };
 
   return (
-    <div className="flex flex-col  items-center h-[2000px] z-[999]">
+    <div className="h-screen flex justify-evenly">
 
-    <form onSubmit={handleSubmit} className="mt-4 space-y-6 w-96 ">
+    <div className="flex flex-col  items-center justify-center ">
+        <h1 className="uppercase font-bold text-2xl underline">Registration Form</h1>
+    <form onSubmit={handleSubmit} className="mt-4 space-y-6 w-96 bg-red-200 p-2">
       <div className="">
         {
           fields.map((field) => (
@@ -56,11 +58,21 @@ export default function FoodForm() {
             isRequired={field.isRequired}
             placeholder={field.placeholder}
             />
-          ))
-        }
+            ))
+          }
         <FormAction handleSubmit={handleSubmit} text={'Register'} />
       </div>
     </form>
+    </div>
+    <div className="flex flex-col items-center justify-center">
+    <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
+      <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
+        <ul typeof="">
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
     </div>
   );
 }

@@ -44,10 +44,10 @@ const moocFields = [
       labelFor:"Opening",
       id:"Opening",
       name:"Opening",
-      type:"time",
+      type:"text",
       autoComplete:"",
       isRequired:true,
-      placeholder:""   
+      placeholder:"Enter in minutes"   
   },
   
   

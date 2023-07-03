@@ -1,11 +1,17 @@
-const Welcome = () =>{
-    return(
-        <div className="fixed bottom-[20%] bg-[#ffffff98] text-center w-[40%] left-[30%] font-bold">
-            <div className="text-5xl capitalize">Welcome to the Website</div>
-            <div className="text-xl capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, necessitatibus?</div>
-            <div className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti velit quam rem iste ex alias ipsam voluptate a? Repellendus asperiores assumenda enim consequuntur natus, quod officiis incidunt nostrum similique recusandae. Optio quibusdam, obcaecati ipsum neque delectus ut dolore, exercitationem ad maiores deserunt sit, impedit veritatis! Quidem deserunt corrupti excepturi?</div>
+const Welcome = () => {
+    return (
+      <div className="fixed bottom-[20%] bg-[#ffffff98] text-center w-[50%] left-[25%] font-bold">
+        <div className="text-7xl md:text-5xl lg:text-7xl capitalize">Welcome to the Website!!</div>
+        <div className="text-2xl md:text-xl lg:text-2xl capitalize">Efficient Time Management: Unlocking a Fruitful Life</div>
+        <div className="text-m md:text-sm lg:text-m">
+          In our fast-paced world, time has become a precious commodity. The way we manage our time can greatly impact our
+          productivity and overall life satisfaction. By eliminating indirect time waste, we can optimize our daily routines
+          and create a more fulfilling life. We will explore practical strategies to save time, maximize productivity, and
+          reap the fruits of an efficiently managed life.
         </div>
-    )
-}
-
-export default Welcome
+      </div>
+    );
+  }
+  
+  export default Welcome;
+  

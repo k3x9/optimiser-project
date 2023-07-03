@@ -40,23 +40,43 @@ const adventureFields = [
         placeholder:"Enter Amount"   
     },
     {
+        labelText:"Adventure WeekDay",
+        labelFor:"Day",
+        id:"Day",
+        name:"Day",
+        type:"text",
+        autoComplete:"",
+        isRequired:true,
+        placeholder:"Applicable Weekdays"   
+    },
+    {
         labelText:"Adventure Date",
         labelFor:"Date",
         id:"Date",
         name:"Date",
         type:"date",
         autoComplete:"",
+        isRequired:false,
+        placeholder:""   
+    },
+    {
+        labelText:"Adventure Start Time",
+        labelFor:"Start",
+        id:"Start",
+        name:"Start",
+        type:"time",
+        autoComplete:"",
         isRequired:true,
         placeholder:""   
     },
     {
-        labelText:"Adventure Time",
-        labelFor:"Time",
-        id:"Time",
-        name:"Time",
+        labelText:"Adventure End Time",
+        labelFor:"End",
+        id:"End",
+        name:"End",
         type:"time",
         autoComplete:"",
-        isRequired:true,
+        isRequired:false,
         placeholder:""   
     },
 ];
