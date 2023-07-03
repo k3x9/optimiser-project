@@ -67,9 +67,14 @@ export default function EventForm() {
     <div className="flex flex-col items-center justify-center">
     <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
       <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
-        <ul typeof="">
-          <li></li>
-          <li></li>
+        <ul className="list-disc pl-8">
+          <li>Event-Type: Specify the type of event (e.g., Music, Comedy, Poetry, etc.).</li>
+          <li>Event Location: Enter the Bing URL of the event's location or venue.</li>
+          <li>Rating: Provide a rating for the event on a scale of 1 to 5.</li>
+          <li>Money: Enter the amount of money required for attending the event (e.g., ticket price, entrance fee, etc.).</li>
+          <li>Event Date: Specify the date of the event in the format dd-mm-yyyy.</li>
+          <li>Event Time: Enter the start time or duration of the event (e.g., 7:00 PM, 2 hours, etc.).</li>
+
         </ul>
       </div>
     </div>

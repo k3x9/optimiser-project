@@ -67,9 +67,13 @@ export default function SSForm() {
     <div className="flex flex-col items-center justify-center">
     <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
       <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
-        <ul typeof="">
-          <li></li>
-          <li></li>
+        <ul className="list-disc pl-8">
+          <li>Sight Name: Enter the name of the sight</li>
+          <li>Sight Location: Enter the URL of the sight on Bing, if available</li>
+          <li>Rating: Enter the rating of the sight on a scale of 1-5</li>
+          <li>Money: Enter the amount of money required to visit the sight</li>
+          <li>Opening Time: [--:-- (Enter the opening time of the sight)]</li>
+          <li>Closing Time: [--:-- (Enter the closing time of the sight)]</li>
         </ul>
       </div>
     </div>

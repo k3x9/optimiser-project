@@ -60,14 +60,24 @@ const eventsFields = [
         placeholder:""   
     },
     {
-        labelText:"Event Time",
-        labelFor:"Time",
-        id:"Time",
-        name:"Time",
+        labelText:"Start Time",
+        labelFor:"Opening",
+        id:"Opening",
+        name:"Opening",
         type:"time",
         autoComplete:"",
         isRequired:true,
         placeholder:""   
+    },
+    {
+        labelText:"Duration",
+        labelFor:"Duration",
+        id:"Duration",
+        name:"Duration",
+        type:"text",
+        autoComplete:"",
+        isRequired:true,
+        placeholder:"mins"   
     },
 ];
 

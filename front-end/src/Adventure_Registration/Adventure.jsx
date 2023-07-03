@@ -67,9 +67,13 @@ export default function AdventureForm() {
     <div className="flex flex-col items-center justify-center">
     <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
       <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
-        <ul typeof="">
-          <li></li>
-          <li></li>
+        <ul className="list-disc pl-8">
+          <li>Adventure Name:Enter Adventure Name</li>
+          <li>Adventure Location: Enter Bing Map URL Adventure Location</li>
+          <li>Include details about what to bring, any safety precautions, 
+            specific activities or tasks to be done, any special requirements, 
+            and any other important information that participants should know.
+            Enjoy your adventure!</li>
         </ul>
       </div>
     </div>

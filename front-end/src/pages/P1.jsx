@@ -11,7 +11,8 @@ export default function P1() {
         Content={"Looking for a fun way to spend your free time? Why not head out to catch a movie! Whether you're in the mood for action-packed adventures, heartwarming romances, or gripping thrillers, the cinema offers a perfect escape. Sit back, relax, and immerse yourself in a world of storytelling and entertainment on the big screen."}
         videoPath={"/video11.mp4"}
         css={{"backgroundColor": "black", "border": "2px solid black", "margin": "4rem", "width": "50%", "position": "fixed", "left": "8rem", "minHeight": "45%", "padding": "2rem"}}
-        routePath={'/movie/register'}
+        registerPath={'/movie/register'}
+        searchPath={'/movie/search'}
         backgroundImage={"/pic2.jpg"}
       />
       <Card
@@ -21,7 +22,8 @@ export default function P1() {
         }
         videoPath={"/video12.mp4"}
         css = {{"backgroundImage": "url(/pic1.jpg)", "border": "2px solid black", "margin": "4rem", "width": "50%", "position": "fixed", "left": "8rem", "minHeight": "45%", "padding": "2rem"}}
-        routePath={'/food/register'}
+        registerPath={'/food/register'}
+        searchPath={'/food/search'}
         backgroundImage={"/pic7.jpg"}
       />
       <Backward bwdPath={"/"} />

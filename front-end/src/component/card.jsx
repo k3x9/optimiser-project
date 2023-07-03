@@ -1,11 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Card = ({ Heading, Content, videoPath, css, routePath, backgroundImage }) => {
+const Card = ({ Heading, Content, videoPath, css, registerPath, backgroundImage, searchPath }) => {
   const navigate = useNavigate();
 
   const registerEvent = () => {
-    navigate(routePath);
+    navigate(registerPath);
+  };
+
+  const searchEvent = () => {
+    navigate(searchPath);
   };
 
   return (
@@ -44,6 +48,7 @@ const Card = ({ Heading, Content, videoPath, css, routePath, backgroundImage }) 
           <li className="px-2 my-2">
             <button
               className="block m-auto px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 aspect-w-16 aspect-h-9"
+              onClick={searchEvent}
             >
               Search
             </button>

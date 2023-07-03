@@ -40,4 +40,19 @@ router.post("/register", async (req, res) => {
   }
 });
 
+router.post("/search", async (req, res) => {
+  const client = new google.auth.JWT(
+    keys.client_email,
+    null,
+    keys.private_key,
+    ["https://www.googleapis.com/auth/spreadsheets"]
+  );
+
+  const gsapi = google.sheets({ version: "v4", auth: client });
+
+  res.json({success : "Route Working"})
+});
+
+
+
 module.exports = router;
