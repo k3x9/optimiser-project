@@ -38,10 +38,12 @@ export default function MovieForm() {
   };
 
   return (
-    <div className="h-screen flex justify-evenly">
+    <div className="h-screen flex justify-evenly bg-cover bg-center " style={{ backgroundImage: `url("/pic8.jpg")`,opacity: "0.8" }}>
 
-    <div className="flex flex-col  items-center justify-center ">
+    <div className="flex flex-col  items-center justify-center bg-transparent ">
+      <div className="bg-white">
         <h1 className="uppercase font-bold text-2xl underline">Registration Form</h1>
+      </div> 
     <form onSubmit={handleSubmit} className="mt-4 space-y-6 w-96 bg-red-200 p-2">
       <div className="">
         {
@@ -65,7 +67,9 @@ export default function MovieForm() {
     </form>
     </div>
     <div className="flex flex-col items-center justify-center">
-    <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
+    <div className="bg-white">
+      <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
+    </div>
       <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
         <ul className="list-disc pl-8">
           <li>Movie Name: Enter the name of the movie</li>

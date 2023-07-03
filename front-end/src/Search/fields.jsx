@@ -14,19 +14,20 @@ const searchFields = [
         labelFor:"Location",
         id:"Location",
         name:"Location",
-        type:"url",
+        type:"text",
         autoComplete:"",
         isRequired:true,
-        placeholder:"Bing Url"   
+        placeholder:"Bing Url or Location Name"   
     },
     {
         labelText:"Time",
         labelFor:"Time",
         id:"Time",
         name:"Time",
-        type:"date",
+        type:"text",
         autoComplete:"",
-        isRequired:true
+        isRequired:true,
+        placeholder:"Min"
         // placeholder:"Enter Movie Name"   
     },
 ]

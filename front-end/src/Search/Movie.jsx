@@ -39,7 +39,7 @@ export default function MovieSearch() {
   };
 
   return (
-    <div className="h-screen flex justify-evenly">
+    <div className="h-screen flex justify-evenly b-[/pic1.jpg]">
 
     <div className="flex flex-col  items-center justify-center ">
         <h1 className="uppercase font-bold text-2xl underline">Search</h1>
