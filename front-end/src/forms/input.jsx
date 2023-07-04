@@ -14,7 +14,7 @@ export default function Input({
 }){
     return(
         <div className="my-5 flex justify-between ">
-            <label htmlFor={labelFor} className="px-3 py-2">
+            <label htmlFor={labelFor} className="px-3 py-2 text-black font-bold">
               {labelText}
             </label>
             <input

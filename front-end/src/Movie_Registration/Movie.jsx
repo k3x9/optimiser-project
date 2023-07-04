@@ -43,7 +43,8 @@ export default function MovieForm() {
         <div className="bg-white">
           <h1 className="uppercase font-bold text-2xl underline">Registration Form</h1>
         </div> 
-        <form onSubmit={handleSubmit} className="mt-4 space-y-6 w-96 bg-red-200 p-2">
+        <form onSubmit={handleSubmit}           className="mt-4 space-y-6 w-96 bg-red-200 p-2 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100"
+>
           <div className="">
             {
               fields.map((field) => (

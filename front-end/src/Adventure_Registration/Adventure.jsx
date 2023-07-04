@@ -50,7 +50,7 @@ export default function AdventureForm() {
         </div>
         <form
           onSubmit={handleSubmit}
-          className="mt-4 space-y-6 w-96 bg-red-200 p-2 bg-transparent"
+          className="mt-4 space-y-6 w-96 bg-red-200 p-2 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100"
         >
           <div className="">
             {fields.map((field) => (

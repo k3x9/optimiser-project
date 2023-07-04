@@ -171,7 +171,7 @@ router.post("/search", async (req, res) => {
                       answer['Food_type'].push(data[indices[i]][1]);
                       answer['Location'].push(data[indices[i]][2]);
                       answer['Rating'].push(data[indices[i]][3]);
-                      answer['Average_Money'].push(data[indices[i][4]]);
+                      answer['Average_Money'].push(data[indices[i]][4]);
                       answer['Opening-Time'].push(data[indices[i]][5]);
                       answer['Closing-Time'].push(data[indices[i]][6]);
                       answer['TravelDuration'].push(result[indices[i]]['travelDuration']);
