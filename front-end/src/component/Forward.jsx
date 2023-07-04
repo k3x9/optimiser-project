@@ -3,9 +3,11 @@ import { NavLink } from "react-router-dom";
 
 export default function Forward({ fwdPath }) {
   return (
-    <div className="fixed top-[50%] right-3">
+    <div className="fixed top-1/2 right-3">
       <NavLink to={fwdPath} className="">
-        <BsFillArrowRightCircleFill />
+        <BsFillArrowRightCircleFill 
+        size={40}
+        color="red"/>
       </NavLink>
     </div>
   );

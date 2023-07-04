@@ -5,7 +5,9 @@ export default function Backward({ bwdPath }) {
   return (
     <div className="fixed top-[50%] left-3">
       <NavLink to={bwdPath} className="">
-        <BsFillArrowLeftCircleFill />
+        <BsFillArrowLeftCircleFill
+        size={40}
+        color="red" />
       </NavLink>
     </div>
   );
