@@ -9,7 +9,7 @@ let fieldState = {};
 
 fields.forEach((field) => (fieldState[field.id] = ""));
 
-export default function MovieSearch() {
+export default function EventSearch() {
   const [searchState, setsearchState] = useState(fieldState);
 
   const handleChange = (e) => {
@@ -19,12 +19,12 @@ export default function MovieSearch() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Perform form submission or data handling here
-    searchMovie();
+    Event();
   };
 
 
-  const searchMovie = async () => {
-    const result = await fetch("http://localhost:3000/api/movie/search", {
+  const Event = async () => {
+    const result = await fetch("http://localhost:3000/api/event/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -70,11 +70,11 @@ export default function MovieSearch() {
     <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
       <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
         <ul className="list-disc pl-8">
-          <li>Movie Name: Enter the name of the movie</li>
-          <li>Platform Location: Provide the URL of the movie theatre on Bing Maps, or any other relevant OTT platform.</li>
-          <li>Give a rating for the movie on a scale of 1 to 5</li>
-          <li>Money: Enter the amount of money required for ticket purchase or movie rental.</li>
-          <li>Show Time: Specify the time when the movie will be shown or available for viewing.</li>
+          <li>Event Name: Enter the name of the Event</li>
+          <li>Platform Location: Provide the URL of the Event theatre on Bing Maps, or any other relevant OTT platform.</li>
+          <li>Give a rating for the Event on a scale of 1 to 5</li>
+          <li>Money: Enter the amount of money required for ticket purchase or Event rental.</li>
+          <li>Show Time: Specify the time when the Event will be shown or available for viewing.</li>
         </ul>
       </div>
     </div> */}

@@ -10,7 +10,8 @@ export default function P2() {
         Content={" Discover the world around you and indulge in the joy of sightseeing during your free time. Unleash your inner explorer as you venture out to iconic landmarks, immerse yourself in local cultures, and create lasting memories. Whether it's admiring architectural marvels, exploring breathtaking landscapes, or savoring diverse cuisines, every outing promises to be a thrilling adventure for the curious soul."}
         videoPath={"/video21.mp4"}
         css = {{"backgroundImage": "url(/pic1.jpg)", "border": "2px solid black", "margin": "4rem", "width": "50%", "position": "fixed", "left": "8rem", "minHeight": "45%", "padding": "2rem"}}
-        routePath={'/sight-seeing/register'}
+        registerPath={'/sight-seeing/register'}
+        searchPath={'/sight-seeing/search'}
         backgroundImage={"/pic6.jpg"}
       />
       <Card
@@ -20,7 +21,8 @@ export default function P2() {
         }
         videoPath={"/video22.mp4"}
         css = {{"backgroundImage": "url(/pic1.jpg)", "border": "2px solid black", "margin": "4rem", "width": "50%", "position": "fixed", "left": "8rem", "minHeight": "45%", "padding": "2rem"}}
-        routePath={"/adventure/register"}
+        registerPath={"/adventure/register"}
+        searchPath={'/adventure/search'}
         backgroundImage={"/pic8.jpg"}
       />
       <Backward bwdPath={"/p1"} />

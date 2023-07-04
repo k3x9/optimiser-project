@@ -12,6 +12,11 @@ import AdventureForm from "./Adventure_Registration/Adventure";
 import SSForm from "./SightSeeing_Registration/SightSeeing";
 import MoocForm from "./Mooc_Registration/Mooc";
 import MovieSearch from "./Search/Movie";
+import FoodSearch from "./Search/Food";
+import SSSearch from "./Search/Sightseeing";
+import AdventureSearch from "./Search/Adventure";
+import MoocSearch from "./Search/Mooc";
+import EventSearch from "./Search/Events";
 
 const App = () => {
   return(
@@ -28,10 +33,15 @@ const App = () => {
           <Route path = "/movie/register" element = {<MovieForm />} />
           <Route path = "/movie/search" element = {<MovieSearch />} />
           <Route path = "/food/register" element = {<FoodForm />} />
+          <Route path = "/food/search" element = {<FoodSearch />} />
           <Route path = "/event/register" element = {<EventForm />} />
+          <Route path = "/event/search" element = {<EventSearch />} />
           <Route path = "/adventure/register" element = {<AdventureForm />} />
+          <Route path = "/adventure/search" element = {<AdventureSearch />} />
           <Route path = "/sight-seeing/register" element = {<SSForm />} />
+          <Route path = "/sight-seeing/search" element = {<SSSearch />} />
           <Route path = "/mooc/register" element = {<MoocForm />} />
+          <Route path = "/mooc/search" element = {<MoocSearch />} />
         </Routes>
       </Router>
     </div>

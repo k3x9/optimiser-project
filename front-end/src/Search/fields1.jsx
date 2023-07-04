@@ -10,16 +10,6 @@ const searchFields = [
         placeholder:"Enter Money"   
     },
     {
-        labelText:"Location",
-        labelFor:"Location",
-        id:"Location",
-        name:"Location",
-        type:["url","text"],
-        autoComplete:"",
-        isRequired:true,
-        placeholder:"Bing Url"   
-    },
-    {
         labelText:"Time",
         labelFor:"Time",
         id:"Time",

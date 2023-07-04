@@ -9,7 +9,8 @@ export default function P3() {
         Content={" Looking for something exciting to do in your free time? Why not explore the vibrant world of events happening around you? From live music concerts and art exhibitions to food festivals and sports matches, there's always something to suit your interests. Step out, immerse yourself in the atmosphere, and create memorable experiences. Don't miss out on the opportunity to discover new passions and connect with like-minded individuals!"}
         videoPath={"/video31.mp4"}
         css = {{"backgroundImage": "url(/pic1.jpg)", "border": "2px solid black", "margin": "4rem", "width": "50%", "position": "fixed", "left": "8rem", "minHeight": "45%", "padding": "2rem"}}
-        routePath={"/event/register"}
+        registerPath={"/event/register"}
+        searchPath={'/event/search'}
         backgroundImage={"/pic10.jpg"}
       />
       <Card
@@ -19,7 +20,8 @@ export default function P3() {
         }
         videoPath={"/video32.mp4"}
         css = {{"backgroundImage": "url(/pic1.jpg)", "border": "2px solid black", "margin": "4rem", "width": "50%", "position": "fixed", "left": "8rem", "minHeight": "45%", "padding": "2rem"}}
-        routePath={'/mooc/register'}
+        registerPath={'/mooc/register'}
+        searchPath={'/mooc/search'}
         backgroundImage={"/pic11.jpg"}
       />
       <Backward bwdPath={"/p2"} />
