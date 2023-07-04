@@ -25,7 +25,7 @@ export default function SightseeingSearch() {
   const [Data, setData] = useState(null);
 
   const searchSightseeing = async () => {
-    const result = await fetch("https://server-five-wine.vercel.app//api/sight/search", {
+    const result = await fetch("http://server-five-wine.vercel.app//api/sight/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

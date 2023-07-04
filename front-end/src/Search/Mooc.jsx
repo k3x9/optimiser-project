@@ -26,7 +26,7 @@ export default function MOOCSearch() {
 
 
   const searchMOOC = async () => {
-    const result = await fetch("https://server-five-wine.vercel.app//api/mooc/search", {
+    const result = await fetch("http://server-five-wine.vercel.app//api/mooc/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

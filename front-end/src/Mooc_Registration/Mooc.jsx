@@ -23,7 +23,7 @@ export default function MoocForm() {
   };
 
   const registerCourse = async () => {
-    const result = await fetch("https://server-five-wine.vercel.app//api/mooc/register", {
+    const result = await fetch("http://server-five-wine.vercel.app//api/mooc/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -23,7 +23,7 @@ export default function FoodForm() {
   };
 
   const registerFood = async () => {
-    const result = await fetch("https://server-five-wine.vercel.app//api/food/register", {
+    const result = await fetch("http://server-five-wine.vercel.app//api/food/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
