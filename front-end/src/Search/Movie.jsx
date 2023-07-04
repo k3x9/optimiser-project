@@ -33,7 +33,7 @@ export default function MovieSearch() {
     });
 
     const jsonData = await result.json();
-    // console.log(jsonData);
+    console.log(jsonData);
     alert(jsonData.success);
     window.location.reload();
   };

@@ -166,7 +166,7 @@ router.post("/search", async (req, res) => {
               const answer = {'Name': [], 'Food_type': [], 'Location': [], 'Rating': [], 'Average_Money': [], 'Opening-Time': [], 'Closing-Time': [], 'TravelDuration': []};
               let cnt = 0;
               for(let i = 0; i < indices.length && cnt < 10; i++){
-                  if(result[indices[i]]['travelDuration'] <= time_req && data[indices[i]][money_column] <= money_left){
+                  if(2*result[indices[i]]['travelDuration'] <= time_req && data[indices[i]][money_column] <= money_left){
                       answer['Name'].push(data[indices[i]][0]);
                       answer['Food_type'].push(data[indices[i]][1]);
                       answer['Location'].push(data[indices[i]][2]);

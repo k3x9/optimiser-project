@@ -24,7 +24,7 @@ export default function SightseeingSearch() {
 
 
   const searchSightseeing = async () => {
-    const result = await fetch("http://localhost:3000/api/sight-seeing/search", {
+    const result = await fetch("http://localhost:3000/api/sight/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +33,7 @@ export default function SightseeingSearch() {
     });
 
     const jsonData = await result.json();
-    // console.log(jsonData);
+    console.log(jsonData);
     alert(jsonData.success);
     window.location.reload();
   };

@@ -38,41 +38,49 @@ export default function MoocForm() {
   };
 
   return (
-    <div className="h-screen flex justify-evenly">
-
-    <div className="flex flex-col  items-center justify-center ">
-        <h1 className="uppercase font-bold text-2xl underline">Registration Form</h1>
-    <form onSubmit={handleSubmit} className="mt-4 space-y-6 w-96 bg-red-200 p-2">
-      <div className="">
-        {
-          fields.map((field) => (
-            <Input 
-            key={field.id}
-            handleChange={handleChange}
-            value={moocState[field.id]}
-            labelText={field.labelText}
-            labelFor={field.labelFor}
-            id={field.id}
-            name={field.name}
-            type={field.type}
-            isRequired={field.isRequired}
-            placeholder={field.placeholder}
-            />
-            ))
-          }
-        <FormAction handleSubmit={handleSubmit} text={'Register'} />
+    <div
+      className="h-screen flex flex-col md:flex-row justify-evenly bg-cover bg-center"
+      style={{ backgroundImage: `url("/pic17.jpg")`, opacity: "1" }}
+    >
+      <div className="flex flex-col items-center justify-center bg-transparent">
+        <div className="bg-white">
+          <h1 className="uppercase font-bold text-2xl underline">
+            Registration Form
+          </h1>
+        </div>
+        <form
+          onSubmit={handleSubmit}
+          className="mt-4 space-y-6 w-96 bg-red-200 p-2"
+        >
+          <div className="">
+            {fields.map((field) => (
+              <Input
+                key={field.id}
+                handleChange={handleChange}
+                value={moocState[field.id]}
+                labelText={field.labelText}
+                labelFor={field.labelFor}
+                id={field.id}
+                name={field.name}
+                type={field.type}
+                isRequired={field.isRequired}
+                placeholder={field.placeholder}
+              />
+            ))}
+            <FormAction handleSubmit={handleSubmit} text={"Register"} />
+          </div>
+        </form>
       </div>
-    </form>
-    </div>
-    <div className="flex flex-col items-center justify-center">
-    <h1 className="uppercase font-bold text-2xl underline">Registration Instruction</h1>
-      <div className="mt-4 space-y-6 w-96 bg-red-200 p-2">
-        <ul typeof="">
-          <li></li>
-          <li></li>
-        </ul>
+      <div className="flex flex-col items-center justify-center">
+        <div className="bg-white">
+          <h1 className="uppercase font-bold text-2xl underline">
+          </h1>
+        </div>
+        <div className="mt-4 space-y-6 w-96 bg-red-200 p-2 bg-transparent">
+          <ul className="list-disc pl-8">
+          </ul>
+        </div>
       </div>
-    </div>
     </div>
   );
 }

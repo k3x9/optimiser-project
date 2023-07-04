@@ -24,7 +24,7 @@ export default function EventSearch() {
 
 
   const Event = async () => {
-    const result = await fetch("http://localhost:3000/api/event/search", {
+    const result = await fetch("http://localhost:3000/api/events/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
