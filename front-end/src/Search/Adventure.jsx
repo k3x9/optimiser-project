@@ -25,7 +25,7 @@ export default function AdventureSearch() {
   const [Data, setData] = useState(null);
 
   const searchAdventure = async () => {
-    const result = await fetch("http://localhost:3000/api/adventure/search", {
+    const result = await fetch("https://server-five-wine.vercel.app//api/adventure/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

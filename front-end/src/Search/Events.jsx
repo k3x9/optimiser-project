@@ -25,7 +25,7 @@ export default function EventSearch() {
   const [Data, setData] = useState(null);
 
   const Event = async () => {
-    const result = await fetch("http://localhost:3000/api/events/search", {
+    const result = await fetch("https://server-five-wine.vercel.app//api/events/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -26,7 +26,7 @@ export default function MovieSearch() {
   const [Data, setData] = useState(null);
 
   const searchMovie = async () => {
-    const result = await fetch("http://localhost:3000/api/movie/search", {
+    const result = await fetch("https://server-five-wine.vercel.app//api/movie/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -25,7 +25,7 @@ export default function FoodSearch() {
   const [Data, setData] = useState(null);
 
   const searchFood = async () => {
-    const result = await fetch("http://localhost:3000/api/food/search", {
+    const result = await fetch("https://server-five-wine.vercel.app//api/food/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
