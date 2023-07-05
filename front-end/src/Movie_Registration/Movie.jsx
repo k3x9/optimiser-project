@@ -23,7 +23,7 @@ export default function MovieForm() {
   };
 
   const registerMovie = async () => {
-    const result = await fetch("http://server-five-wine.vercel.app//api/movie/register", {
+    const result = await fetch("https://server-five-wine.vercel.app/api/movie/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
