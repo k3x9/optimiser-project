@@ -23,8 +23,9 @@ export default function EventForm() {
   };
 
   const registerEvent = async () => {
-    const result = await fetch("http://server-five-wine.vercel.app//api/events/register", {
-      method: "POST",
+    const result = await fetch("https://server-five-wine.vercel.app/api/events/register", {
+
+    method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
