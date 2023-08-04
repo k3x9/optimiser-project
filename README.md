@@ -1,9 +1,9 @@
 # Group Members
 
-## 1. Adarsh Shrivastav (Github : )
-## 2. Ankit Kumar (Github : kumar306Ankit)
-## 3. Anupam Verma
-## 4. Anurag Singh (Github : anurag3414)
+1. Adarsh Shrivastav (Github : )
+2. Ankit Kumar (Github : kumar306Ankit)
+3. Anupam Verma
+4. Anurag Singh (Github : anurag3414)
 
 # Starting the Front End
 1. ```cd front-end```
