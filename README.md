@@ -6,7 +6,7 @@
 5. Anupam Verma (Github : AnupamVerma007)
 6. Anurag Singh (Github : anurag3414)
 7. Ankur (Github : )
-8. Ankit Kumar (Github : )
+8. Ankit Kumar (Github : SimpleKidd)
 9. Ritesh (Github : )
    
 # Starting the Front End
