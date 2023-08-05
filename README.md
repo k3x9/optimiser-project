@@ -5,9 +5,9 @@
 4. Jason Daniel (Github : jason-dan-iel)
 5. Anupam Verma (Github : AnupamVerma007)
 6. Anurag Singh (Github : anurag3414)
-7. Ankur (Github : )
+7. Ankur (Github : rao-ankur)
 8. Ankit Kumar (Github : SimpleKidd)
-9. Ritesh (Github : )
+9. Ritesh (Github : ritesh0611)
    
 # Starting the Front End
 1. ```cd front-end```
