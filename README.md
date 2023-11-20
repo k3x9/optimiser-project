@@ -1,6 +1,6 @@
 # Group Members
 
-1. Adarsh Shrivastav (Github : k3x9)
+1. Adarsh Raj Shrivastava (Github : [k3x9](https://github.com/k3x9))
 3. Ankit Kumar (Github : kumar306Ankit)
 4. Jason Daniel (Github : jason-dan-iel)
 5. Anupam Verma (Github : AnupamVerma007)
